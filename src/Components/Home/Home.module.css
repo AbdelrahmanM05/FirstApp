@@ -1,0 +1,41 @@
+header{
+    background-color: #1abc9c;
+}
+
+.imgW{
+    width: 15rem;
+}
+
+.starIcon {
+  position: relative;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.starIcon::before {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 59%;
+  transform: translateY(50%);
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 1rem;
+  border-color: white ;
+}
+
+.starIcon::after{
+      content: "";
+  position: absolute;
+  bottom: 50%;
+  right: 59%;
+  transform: translateY(50%);
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 1rem;
+  border-color: white;
+}       

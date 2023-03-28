@@ -1,0 +1,28 @@
+.headOfCont {
+  color: #2c3e50;
+}
+
+.line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+
+.mess {
+  height: 100px;
+  width: 100%;
+  overflow: visible;
+  border: none;
+  resize: none;
+  box-shadow: none;
+}
+
+.mess:focus {
+  color: #495057;
+  background-color: white;
+  border: #6bebd1;
+  outline: 0;
+}
